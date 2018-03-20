@@ -1,0 +1,18 @@
+body {
+    margin: 50px;
+    padding: 0;
+    position: relative;
+    min-width: 600px;  /*中央配置するボックスの横幅*/
+    min-height: 600px;  /*中央配置するボックス縦幅*/
+    background-color: #333;
+}
+
+#myCanvas {
+    margin: -300px 0 0 -300px;  /*縦横の半分をネガティブマージンでずらす*/
+    position: absolute;  /*body要素に対して絶対配置*/
+    top: 50%;  /*上端を中央に*/
+    left: 50%;  /*左端を中央に*/
+    width: 600px;  /*横幅*/
+    height: 600px;  /*縦幅*/
+    background-color: #FFF;
+}

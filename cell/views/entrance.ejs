@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>entrance</title>
+    <link rel='stylesheet' href='/ss/style.css' />
+      <script src="js/createjs.min.js"></script>
+  </head>
+  <body>
+    <div class="canvas-wrapper">
+        <canvas id="myCanvas" width="600" height="600"></canvas>
+        <div id="myElement"></div>
+        <style type="text/css">
+            .canvas-wrapper canvas {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        </style>
+    </div>
+
+    <script>
+        let ppp = <%- JSON.stringify(ppp) %>
+        let user = <%- JSON.stringify(user) %>
+        let map = <%- JSON.stringify(map) %>
+    </script>
+
+    <script src="dist/constant_20180221.js"></script>
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>

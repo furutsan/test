@@ -1,0 +1,25 @@
+{
+  "name": "cell",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "^3.1.0",
+    "ejs": "~2.5.7",
+    "express": "^4.16.3",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "express-session": "^1.15.6",
+    "liquidfun-emscripten": "^1.1.2",
+    "mongoose": "^5.0.10",
+    "socket.io": "^2.0.4",
+    "webpack": "^3.11.0"
+  }
+}
