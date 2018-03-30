@@ -27,6 +27,8 @@ function init() {
     title.y = 550;
     stage.addChild(title);
 
+    console.log('ささ');
+
     createjs.Ticker.timingMode = createjs.Ticker.RAF;
     createjs.Ticker.on("tick", handleTick);
 }
